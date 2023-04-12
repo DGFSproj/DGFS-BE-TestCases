@@ -1,5 +1,5 @@
 # 1 Dimensional Couette Flow Case
-This test case involves a one-dimensional normal shock problem. Shock waves are an important concept in the field of aerospace engineering and play an important role in the development of supersonic engines, turbomachinery, supersonic vehicle surfaces, rockets, missiles, and reentry vehicles. 
+This test case involves a one-dimensional Couette flow problem. Couette flow is defined as flow with one or more moving boundaries. It is important in engineering with the simplicity of analytic solutions and applications to atmospheric and geological phenomena 
 
 ## Test Case Characteristics 
 In this test case, we use Helium as the working gas. There are three different file endings used: .ini, .geo, and .msh, that are required to run the DGFS solver. The .ini file is the input file for the solver, the .geo file provides the description of the geometry for the mesh generation using theb Gmsh software, and the .msh file is the mesh from the Gmsh software.  
