@@ -1,4 +1,4 @@
-# 1 Dimensional Normal Shock Flow Case
+# 1 Dimensional Couette Flow Case
 This test case involves a one-dimensional normal shock problem. Shock waves are an important concept in the field of aerospace engineering and play an important role in the development of supersonic engines, turbomachinery, supersonic vehicle surfaces, rockets, missiles, and reentry vehicles. 
 
 ## Test Case Characteristics 
