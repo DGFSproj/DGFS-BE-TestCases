@@ -11,6 +11,7 @@ The .geo file includes the geometry defintions of to be used by the Gmsh program
 
 ## Flow Visualization 
 The image below provides a schematic of the problem with the defined macroscopic properties required by the solver. The image next to the schematic is a comparison between a Helium shock using the DGFS solver and DSMC solver. The image demonstrates clear allignment between the two solvers. 
+
 <img src="./Resources/NormalShockFlowVisualization.png" alt="NormalShockFlowVisualization" width="800"/>
 ## References
 <a id="1">[1]</a> 
