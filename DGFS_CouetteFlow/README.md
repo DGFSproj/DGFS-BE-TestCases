@@ -13,6 +13,7 @@ The .geo file includes the geometry defintions of to be used by the Gmsh program
 The image below provides a schematic of the problem with the defined macroscopic properties required by the solver. The image next to the schematic is a comparison of x-velocity using the DGFS solver and DSMC solver. The image demonstrates clear allignment between the two solvers. 
 
 <img src="./Resources/Couette_Comparison.png" alt="Couette_Comparison" width="600"/>
+
 ## References
 <a id="1">[1]</a> 
 Bird, Graeme Austin. Molecular Gas Dynamics. Oxford: Clarendon Press, 1976. Print.
