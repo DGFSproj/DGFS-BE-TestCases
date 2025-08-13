@@ -11,7 +11,7 @@ A file with the extension .geo represents a format that contains both geometry a
 
 In this particular case, a non-dimensional geometry was created in the .geo file, and each line of the geometry (Physical Line) was assigned a specific name to represent different boundary conditions (Inlet, Outlet, Wall, Symmetry). The actual boundary conditions themselves are defined in the .ini file. Additionally, all non-dimensional parameters including length are set in the .ini file.
 
-Different meshes were used in order to conduct a mesh refinement study, aiming to achieve the desired accuracy. After evaluating multiple mesh configurations, a final mesh was selected that met the desired accuracy criteria (?). The results presented in this section correspond to the final mesh with 8 x 2 elements in the microchannel that achieved the desired accuracy.
+Different meshes were used in order to conduct a mesh refinement study, aiming to achieve the desired accuracy. After evaluating multiple mesh configurations, a final mesh was selected that met the desired accuracy criteria. The results presented in this section correspond to the final mesh with 8 x 2 elements in the microchannel that achieved the desired accuracy.
 
 
 ### Input File 
