@@ -22,6 +22,12 @@ gmsh -2 dgfs_2d_couette.geo
 
 This will produce `dgfs_2d_couette.msh`.
 
+(Optional) To visualize the mesh:
+
+```bash
+gmsh dgfs_2d_couette.msh
+```
+
 ### 3. Convert to DGFS Mesh Format
 
 Convert the GMSH mesh to DGFS-native `.frfsm` format:
@@ -30,11 +36,7 @@ Convert the GMSH mesh to DGFS-native `.frfsm` format:
 frfs import dgfs_2d_couette.msh mesh.frfsm
 ```
 
-(Optional) To visualize the mesh:
-
-```bash
-gmsh dgfs_2d_couette.msh
-```
+This will produce `mesh.frfsm`.
 
 ### 4. Run the Simulation
 
