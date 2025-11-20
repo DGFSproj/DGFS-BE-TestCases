@@ -56,6 +56,8 @@ frfs export mesh.frfsm bulksol_dgfs_2d_couette-10.0.frfss bulksol_dgfs_2d_couett
 
 - `-d 16` means that each DG element is subdivided into 16 sub-elements for smoother visualization
 - The output `.vtu` file can be visualized with ParaView or Tecplot
+  
+![VTU Conversion Diagram](/Solution_generation.png)
 
 To visualize using Tecplot:
 
@@ -63,4 +65,16 @@ To visualize using Tecplot:
 tec360 bulksol_dgfs_2d_couette-10.0.frfss.vtu
 ```
 
-![VTU Conversion Diagram](/mnt/data/D2010AD9-C30F-4708-AD8E-46A3A0710204.png)
+### 6. Resources about creating .geo and .msh file
+https://freshkiss3d.gitlabpages.inria.fr/freshkiss3d/auto_examples_mesh/example_generate_mesh.html
+
+http://www.manpagez.com/info/gmsh/gmsh-2.2.6/gmsh_47.php
+
+https://www.manpagez.com/info/gmsh/gmsh-2.4.0/gmsh_69.php
+
+https://openfoamwiki.net/index.php/2D_Mesh_Tutorial_using_GMSH
+
+https://chi-tech.github.io/d4/db9/_gmsh_example_01.html
+
+https://gmsh.info/doc/texinfo/gmsh.html
+
