@@ -46,7 +46,7 @@ Execute the solver using CUDA backend:
 frfs run mesh.frfsm dgfs_2d_couette.ini -b cuda
 ```
 
-This will produce solution output files with the `.frfss` extension inside the case directory, one for each saved timestep.
+This will produce solution output files with the `.frfss` extension inside the case directory, with frequency set in configuration file `.ini`.
 
 ### 5. Post-Processing: Convert to VTU Format
 
